@@ -56,7 +56,7 @@
       
       function changeLike(i) {
         if (posts[i].liked == true) {
-          post[i].liked = false;
+          posts[i].liked = false;
           posts[i].likes--;
           render();
           saveToLocalStorage();
